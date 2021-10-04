@@ -1,0 +1,19 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "Code for advanced webtech class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangah-codes/express-server.git"
+  },
+  "author": "Joshua Akangah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangah-codes/express-server/issues"
+  },
+  "homepage": "https://github.com/kangah-codes/express-server#readme"
+}
