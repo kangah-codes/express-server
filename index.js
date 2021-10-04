@@ -85,10 +85,10 @@ app.get("/", (req, res) => {
 	});
 });
 
-app.get("/products", (req, res) => {
-	res.json({
-		products: products,
-	});
+app.get("/products/:productId", (req, res) => {
+	const productId = req.params.productId;
+
+	res.json(products[productId - 1]);
 });
 
 app.listen(3000, () => {
